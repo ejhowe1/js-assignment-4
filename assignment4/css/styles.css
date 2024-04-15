@@ -1,0 +1,62 @@
+/* Set the font family for the entire body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Center align the heading */
+h1 {
+    text-align: center;
+}
+
+/* Center align and italicize the student info */
+#student-info {
+    text-align: center;
+    font-style: italic;
+}
+
+/* Center align the search container and add margin */
+#search-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Style the search input */
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Style the search button */
+#searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Change the background color of the search button on hover */
+#searchButton:hover {
+    background-color: #0056b3;
+}
+
+/* Style the profile container */
+#profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Style each profile */
+.profile {
+    margin: 10px;
+    text-align: center;
+}
+
+/* Style the profile image */
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+}
